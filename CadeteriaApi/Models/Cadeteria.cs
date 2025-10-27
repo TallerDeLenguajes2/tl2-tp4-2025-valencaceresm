@@ -23,6 +23,10 @@ namespace CadeteriaApi.Models
             this.listadoPedidos = new List<Pedido>();
         }
 
+        // Inicializaciones masivas usadas por la capa de datos
+        public void AgregarListaCadetes(List<Cadete> cadetes) => listadoCadetes = cadetes;
+        public void AgregarListaPedidos(List<Pedido> pedidos) => listadoPedidos = pedidos;
+
         public void AgregarPedido(Pedido pedido)
         {
             listadoPedidos.Add(pedido);

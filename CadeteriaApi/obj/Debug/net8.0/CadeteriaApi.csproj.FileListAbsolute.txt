@@ -31,3 +31,4 @@ C:\Users\Val\tl2-tp4-2025-valencaceresm\CadeteriaApi\obj\Debug\net8.0\refint\Cad
 C:\Users\Val\tl2-tp4-2025-valencaceresm\CadeteriaApi\obj\Debug\net8.0\CadeteriaApi.pdb
 C:\Users\Val\tl2-tp4-2025-valencaceresm\CadeteriaApi\obj\Debug\net8.0\CadeteriaApi.genruntimeconfig.cache
 C:\Users\Val\tl2-tp4-2025-valencaceresm\CadeteriaApi\obj\Debug\net8.0\ref\CadeteriaApi.dll
+C:\Users\Val\tl2-tp4-2025-valencaceresm\CadeteriaApi\obj\Debug\net8.0\CadeteriaApi.sourcelink.json

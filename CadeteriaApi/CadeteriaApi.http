@@ -24,7 +24,8 @@ Content-Type: application/json
 PUT {{base}}/api/cadeteria/asignar?idPedido=1&idCadete=1
 
 ### Cambiar estado de pedido
-PUT {{base}}/api/cadeteria/estado?idPedido=1&nuevoEstado=1
+# Estados: Pendiente, Entregado, Cancelado
+PUT {{base}}/api/cadeteria/estado?idPedido=1&nuevoEstado=Entregado
 
 ### Cambiar cadete del pedido
 PUT {{base}}/api/cadeteria/cambiar-cadete?idPedido=1&idNuevoCadete=2
