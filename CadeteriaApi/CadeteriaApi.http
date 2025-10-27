@@ -1,0 +1,31 @@
+@CadeteriaApi_HostAddress = http://localhost:5057
+### Ejemplos API Cadetería
+
+@base={{CadeteriaApi_HostAddress}}
+
+### Listar pedidos
+GET {{base}}/api/cadeteria/pedidos
+
+### Listar cadetes
+GET {{base}}/api/cadeteria/cadetes
+
+### Obtener informe
+GET {{base}}/api/cadeteria/informe
+
+### Crear pedido
+POST {{base}}/api/cadeteria/pedidos
+Content-Type: application/json
+
+{
+  "observacion": "Pedido de prueba"
+}
+
+### Asignar pedido
+PUT {{base}}/api/cadeteria/asignar?idPedido=1&idCadete=1
+
+### Cambiar estado de pedido
+PUT {{base}}/api/cadeteria/estado?idPedido=1&nuevoEstado=1
+
+### Cambiar cadete del pedido
+PUT {{base}}/api/cadeteria/cambiar-cadete?idPedido=1&idNuevoCadete=2
+###
